@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+# 🏥 Operation Scheduler for Hospital Management
 
-## Project info
+A dynamic, real-time Operation Theater (OT) scheduling system for hospitals built using **HTML, CSS, JavaScript**, and **Firebase**. The system allows administrators to assign, monitor, and manage surgical schedules while supporting emergency rescheduling and efficient OT utilization.
 
-**URL**: https://lovable.dev/projects/2f1140ce-f87b-4385-a277-76f052511905
+---
 
-## How can I edit this code?
+## 🚀 Live Demo
 
-There are several ways of editing your application.
+👉 [View Live Project](https://operation-scheduler-pniz.vercel.app/) 
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2f1140ce-f87b-4385-a277-76f052511905) and start prompting.
+## 📌 Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- ✅ Admin & User Login/Register
+- 🕒 Real-time OT scheduling (Add, Edit, Cancel, Postpone)
+- 📅 View OT schedules (past and upcoming)
+- 🧑‍⚕️ Manage doctors, anesthetists, nurses, and assistants
+- 🗂 Attach surgical reports and remarks
+- 📦 Track materials, drugs, and instruments used
+- 🔐 Secure access with Firebase Auth
+- 🧠 Log all admin/user actions
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Technologies Used
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Frontend**: HTML, CSS, JavaScript (Vanilla)
+- **Backend/Database**: Firebase Firestore
+- **Authentication**: Firebase Auth
+- **Hosting**: Firebase Hosting / Vercel
+- **Logging**: JavaScript logger (custom implementation or npm)
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🧩 System Modules
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 👤 Admin Panel
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Login/Register
+- Manage Doctor & Patient Details
+- Post/Edit OT Schedules
+- View/Track Pre & Post-Operative Events
+- Upload Surgical Reports (charts, documents)
+- Remarks and operation feedback
+- Assign materials and anesthesia details
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 🙋 User Panel
 
-**Edit a file directly in GitHub**
+- Register/Login
+- View Doctor Details
+- View OT Information
+- Monitor surgery status
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2f1140ce-f87b-4385-a277-76f052511905) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
